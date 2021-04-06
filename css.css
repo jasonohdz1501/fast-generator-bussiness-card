@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(45deg, #775AD0, #9575F4);
+  background-repeat: no-repeat;
+  height: 150%;
+  margin: 0;
+  padding: 30px;
+}
+
+.main-content {
+  margin: auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 10px 20px 2px rgb(12, 12, 12, 0.5);
+  border-radius: 0.3rem;
+}
+
+.input-container {
+  background: #F8F8F8;
+}
+
+.preview-container {
+  background: #F8F8F8;
+
+}
+
+.main-title{
+  font-size: 2rem;
+  font-weight: 900;
+  color:#544691;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.title-2 {
+  font-size: 1.2rem;
+}
+
+.col-form-label::after {
+  content: "";
+  margin-right: 1.5px;
+}
+
+.form-select {
+  background: none;
+  border: none;
+}
+
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.form-icon::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0dd";
+}
+.input-container .input-group .input-group-text{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-submit {
+  background: #775AD0;
+  color: #fff;
+}
+.btn-submit:hover {
+  background: #9575F4;
+}
+
+.btn-clear {
+  background: #1A0B5B;
+  color: #fff;
+}
+.btn-clear:hover {
+  background: #1E0F87;
+  color: #D9D4FF;
+}
+.form-output {
+  background: none;
+  border: none;
+}
+
+.card {
+  border: 0.02rem solid rgb(41, 41, 41, 0.5);
+  box-shadow: 0px 2px 5px #887fcf;
+  padding: 10px;
+}
+
+#pixeles {
+  display:inline-block;
+}
+
+.message_error {
+  color: rgb(255, 52, 52);
+  font-size: 0.7rem;
+  position: absolute;
+  z-index: 2;
+}
+.message_error_phone {
+  position: absolute;
+  top: 36px;
+}
